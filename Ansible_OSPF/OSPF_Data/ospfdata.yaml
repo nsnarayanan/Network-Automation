@@ -1,0 +1,37 @@
+---
+- name: Show ospf routing table
+  hosts: all
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: ospf routing table
+    juniper_junos_rpc:
+     rpcs:
+     - "get-ospf-route-information"
+     formats: text
+     dest: "{{ ansible_host }}-myrouter1.txt"
+     dest: "{{ ansible_host }}-myrouter2.txt"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+  - name: ospf ping
+    juniper_junos_rpc:
+     rpcs:
+     - "ping"
+     formats: text
+     dest: "pingdata.json"
+     kwargs:
+     - host: "72.114.103.0"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+  - name: Print output
+    debug:
+     var: output
+     

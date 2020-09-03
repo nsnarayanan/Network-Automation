@@ -1,0 +1,13 @@
+---
+all:
+ hosts:
+  myrouter1:
+   ansible_host: 192.168.1.19
+   pinglist: 72.114.103.0
+ 
+  myrouter2:
+   ansible_host: 192.168.1.20
+   pinglist: 72.114.102.0
+   
+ vars:
+  ansible_python_interpreter: /usr/bin/python3

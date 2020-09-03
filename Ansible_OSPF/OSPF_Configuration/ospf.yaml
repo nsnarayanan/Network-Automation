@@ -1,0 +1,21 @@
+---
+- name: create OSPF 
+  hosts: all
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: configuring OSPF 
+    juniper_junos_config:
+     load: merge
+     template: templateq2.conf
+     vars:
+      configdata: "{{ configdata }}"
+      areadata: "{{ areadata }}"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+
+
