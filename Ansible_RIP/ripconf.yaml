@@ -1,0 +1,35 @@
+---
+- name: Setup RIP Protocol 
+  hosts: all
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: configuring RIP Protocol
+    juniper_junos_config:
+     load: merge
+     template: template.conf
+     vars:
+      configdata: "{{ configdata }}"
+      nbrdata: "{{ nbrdata }}"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+- name: Setup Stateless Firewall
+  hosts: set1
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks: 
+  - name: Configuring Firewall
+    juniper_junos_config:
+     load: merge
+     src: templatefw.conf
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+     

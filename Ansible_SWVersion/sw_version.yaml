@@ -1,0 +1,22 @@
+---
+- name: Show Version Brief
+  hosts: all
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: version brief for myrouter1
+    juniper_junos_rpc:
+     rpcs:
+     - "get-software-information"
+     formats: text
+     dest: "{{ ansible_host}}-sw_version.json"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+  - name: Print output
+    debug: 
+     var: output

@@ -1,0 +1,501 @@
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242450">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2143</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242451">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3961</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242452">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1449</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1449</rtt-minimum>
+    <rtt-maximum>3961</rtt-maximum>
+    <rtt-average>2517</rtt-average>
+    <rtt-stddev>1059</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 2143
+RTT Ping 2: 3961
+RTT Ping 3: 1449
+Minimum RTT: 1449
+Maximum RTT: 3961
+Average RTT: 2517
+RTT Maximum Value for overall operation is: 3961
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242462">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2911</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242463">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1539</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242464">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1624</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1539</rtt-minimum>
+    <rtt-maximum>2911</rtt-maximum>
+    <rtt-average>2024</rtt-average>
+    <rtt-stddev>627</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 2911
+RTT Ping 2: 1539
+RTT Ping 3: 1624
+Minimum RTT: 1539
+Maximum RTT: 2911
+Average RTT: 2024
+RTT Maximum Value for overall operation is: 3961
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242474">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2694</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242475">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2328</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242476">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>4019</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>2328</rtt-minimum>
+    <rtt-maximum>4019</rtt-maximum>
+    <rtt-average>3014</rtt-average>
+    <rtt-stddev>726</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 2694
+RTT Ping 2: 2328
+RTT Ping 3: 4019
+Minimum RTT: 2328
+Maximum RTT: 4019
+Average RTT: 3014
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242486">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3065</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242487">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1524</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242488">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1696</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1524</rtt-minimum>
+    <rtt-maximum>3065</rtt-maximum>
+    <rtt-average>2095</rtt-average>
+    <rtt-stddev>689</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 3065
+RTT Ping 2: 1524
+RTT Ping 3: 1696
+Minimum RTT: 1524
+Maximum RTT: 3065
+Average RTT: 2095
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242498">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2995</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242499">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1512</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242500">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1644</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1512</rtt-minimum>
+    <rtt-maximum>2995</rtt-maximum>
+    <rtt-average>2050</rtt-average>
+    <rtt-stddev>670</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 2995
+RTT Ping 2: 1512
+RTT Ping 3: 1644
+Minimum RTT: 1512
+Maximum RTT: 2995
+Average RTT: 2050
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242510">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>2781</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242511">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1587</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242512">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1565</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1565</rtt-minimum>
+    <rtt-maximum>2781</rtt-maximum>
+    <rtt-average>1977</rtt-average>
+    <rtt-stddev>568</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 2781
+RTT Ping 2: 1587
+RTT Ping 3: 1565
+Minimum RTT: 1565
+Maximum RTT: 2781
+Average RTT: 1977
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242522">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3833</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242523">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1514</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242524">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1485</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1485</rtt-minimum>
+    <rtt-maximum>3833</rtt-maximum>
+    <rtt-average>2277</rtt-average>
+    <rtt-stddev>1100</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 3833
+RTT Ping 2: 1514
+RTT Ping 3: 1485
+Minimum RTT: 1485
+Maximum RTT: 3833
+Average RTT: 2277
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242535">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3637</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242536">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1868</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242537">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1945</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1868</rtt-minimum>
+    <rtt-maximum>3637</rtt-maximum>
+    <rtt-average>2483</rtt-average>
+    <rtt-stddev>816</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 3637
+RTT Ping 2: 1868
+RTT Ping 3: 1945
+Minimum RTT: 1868
+Maximum RTT: 3637
+Average RTT: 2483
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242547">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3139</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242548">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1632</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242549">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1620</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1620</rtt-minimum>
+    <rtt-maximum>3139</rtt-maximum>
+    <rtt-average>2130</rtt-average>
+    <rtt-stddev>713</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 3139
+RTT Ping 2: 1632
+RTT Ping 3: 1620
+Minimum RTT: 1620
+Maximum RTT: 3139
+Average RTT: 2130
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+<ping-results>
+  <target-host>192.168.1.139</target-host>
+  <target-ip>192.168.1.139</target-ip>
+  <packet-size>56</packet-size>
+  <probe-result date-determined="1586242559">
+    <probe-index>1</probe-index>
+    <probe-success/>
+    <sequence-number>0</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>3296</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242560">
+    <probe-index>2</probe-index>
+    <probe-success/>
+    <sequence-number>1</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1623</rtt>
+  </probe-result>
+  <probe-result date-determined="1586242561">
+    <probe-index>3</probe-index>
+    <probe-success/>
+    <sequence-number>2</sequence-number>
+    <ip-address>192.168.1.139</ip-address>
+    <time-to-live>64</time-to-live>
+    <response-size>64</response-size>
+    <rtt>1557</rtt>
+  </probe-result>
+  <probe-results-summary>
+    <probes-sent>3</probes-sent>
+    <responses-received>3</responses-received>
+    <packet-loss>0</packet-loss>
+    <rtt-minimum>1557</rtt-minimum>
+    <rtt-maximum>3296</rtt-maximum>
+    <rtt-average>2158</rtt-average>
+    <rtt-stddev>804</rtt-stddev>
+  </probe-results-summary>
+  <ping-success/>
+</ping-results>
+RTT Ping 1: 3296
+RTT Ping 2: 1623
+RTT Ping 3: 1557
+Minimum RTT: 1557
+Maximum RTT: 3296
+Average RTT: 2158
+RTT Maximum Value for overall operation is: 4019
+RTT Minimum Value for overall operation is: 1449
+

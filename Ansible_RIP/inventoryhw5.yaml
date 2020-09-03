@@ -1,0 +1,18 @@
+---
+all:
+ children:
+  set1:
+   hosts:
+    myrouter1:
+     ansible_host: 192.168.1.32
+     configdata: {"ge-0/0/1": "42.7.1.1/24", "lo0": "42.7.10.1/24"}
+     nbrdata: {"ge-0/0/1": "42.7.1.1/24"}
+  
+  set2:
+   hosts:
+    myrouter2:
+     ansible_host: 192.168.1.33
+     configdata: {"ge-0/0/1": "42.7.1.2/24", "lo0": "42.7.20.1/24"}
+     nbrdata: {"ge-0/0/1": "42.7.1.2/24"}
+ vars:
+  ansible_python_interpreter: /usr/bin/python3

@@ -1,0 +1,86 @@
+---
+- name: Show RIP routing table
+  hosts: all
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: RIP table
+    juniper_junos_rpc:
+     rpcs:
+     - "get-route-information"
+     kwargs:
+     - protocol: "rip"
+     formats: xml
+     dest: "rip/routes/{{ ansible_host }}-myrouter1.xml"
+     dest: "rip/routes/{{ ansible_host }}-myrouter2.xml"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+
+- name: Check RIP Ping for Set1
+  hosts: set1
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: RIP Ping
+    juniper_junos_rpc:
+     rpcs:
+     - "ping"
+     kwargs:
+     - host: "42.7.20.1"
+       count: "3"
+     formats: xml
+     dest: "rip/pings/{{ ansible_host }}-myrouter1.xml"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+
+- name: Check RIP Ping for Set2
+  hosts: set2
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: RIP Ping
+    juniper_junos_rpc:
+     rpcs:
+     - "ping"
+     kwargs:
+     - host: "42.7.10.1"
+       count: "3"
+     formats: xml
+     dest: "rip/pings/{{ ansible_host }}-myrouter2.xml"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+
+- name: Check Firewall Counter
+  hosts: set1
+  roles:
+  - Juniper.junos
+  connection: local
+  gather_facts: no
+  tasks:
+  - name: RIP Ping
+    juniper_junos_rpc:
+     rpcs:
+     - "get-firewall-information"
+     formats: xml
+     dest: "rip/firewall/{{ ansible_host }}-myrouter1.xml"
+     provider:
+      host: "{{ ansible_host }}"
+      user: labuser
+      password: Labuser
+    register: output
+
