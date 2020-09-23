@@ -1,0 +1,1 @@
+An Ansible Playbook written in YAML, to configure an run OSPF on four interconnected Juniper SRX240 Routers.
