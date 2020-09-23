@@ -1,0 +1,1 @@
+Simple Ansible Playbook written in YAML, that seeks to obtain version information from a Juniper Router.
