@@ -1,0 +1,1 @@
+Python script that configures six interconnected Juniper Routers, enables Link Layer Discovery Protocol (LLDP) on its interfaces and plots a Network Graph using the Graphviz Python Library based on the connectivity data gathered using LLDP. 
