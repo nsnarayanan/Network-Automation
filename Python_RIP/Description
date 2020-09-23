@@ -1,0 +1,1 @@
+Python Script to configure Routing Information Protocol (RIP) and configure a stateful and stateless firewall on connected Juniper SRX240 Routers. The script also gathers RIP Neighbor and Route Information.
