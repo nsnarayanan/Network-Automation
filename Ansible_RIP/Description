@@ -1,0 +1,1 @@
+Ansible Playbook written in YAML, to configure Routing Information Protocol (RIP) and configure a stateful and stateless firewall on connected Juniper SRX240 Routers. The second Ansible playbook is used to gather connectivity data after RIP has been configured.
