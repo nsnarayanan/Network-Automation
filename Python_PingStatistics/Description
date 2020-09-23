@@ -1,0 +1,1 @@
+Python script that connects to a Juniper Router using a NETCONF session, pings the router 10 times with a 10 second display and gathers and displays ping statistics.
